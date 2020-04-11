@@ -1,16 +1,21 @@
 .ta-nav {
     border: 2px solid var(--borderColor);
     border-radius: 30px;
-}
-
-.ta-nav {
+    background-color: var(--backgroundColor);
+    box-shadow: 3px 3px var(--shadowColor);
     margin-top: 2%;
     margin-bottom: 3%;
     max-height: 80px;
 }
 
-.ta-nav:hover{
+.ta-nav:hover {
     border-color: var(--borderColorHover);
+    background-color: var(--backgroundColorHover);
+}
+
+.ta-nav:hover .ta-btn {
+    border-color: var(--borderColorHover);
+    color: var(--textColorHover);
 }
 
 .ta-nav:hover .ta-nav-tittle {
@@ -30,10 +35,6 @@
     margin-right: 3%;
 }
 
-.ta-nav-item-dropdown {
-
-}
-
 .ta-nav-item-group {
     display: inline-flex;
     margin-left: 4%;
@@ -43,6 +44,7 @@
 .ta-nav-tittle {
     letter-spacing: 3px;
     font-size: 40px;
+    /*text-shadow: 2px 2px var(--textShadowColorHover);*/
 }
 
 @media only screen and (max-width: 960px) {

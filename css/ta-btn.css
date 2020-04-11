@@ -1,14 +1,15 @@
 .ta-btn {
     border: 2px solid var(--borderColor);
-    border-radius: 30px;
-    background: none;
+    border-radius: 20px;
+    background-color: var(--btnBackgorundColor);
     color: inherit;
     white-space: nowrap;
+    box-shadow: 2px 2px var(--shadowColor);
 }
 
 .ta-btn:hover {
     cursor: pointer;
-    /*background-color: #1c1c1c;*/
+    background-color: var(--btnBackgroundColorHover);
     border-color: var(--borderColorHover);
     color: var(--textColorHover);
 }

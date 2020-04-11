@@ -23,10 +23,15 @@
 
 .ta-dropdown-btn {
     position:relative;
-    background: none;
+    background-color: var(--btnBackgorundColor);
+    box-shadow: 2px 2px var(--shadowColor);
     border: 2px solid var(--borderColor);
-    border-radius: 30px;
-    color: var(--textColor);
+    border-radius: 20px;
+    color: var(--btnTextColor);
+}
+
+.ta-dropdown-btn:hover {
+    background-color: var(--btnBackgroundColorHover);
 }
 
 .ta-dropdown-btn-regular {
@@ -46,6 +51,7 @@
     display: none;
     padding: 5px;
     min-width: 200px;
+    box-shadow: 2px 2px var(--shadowColor);
 }
 
 .ta-dropdown-content:hover {
@@ -54,6 +60,7 @@
 
 .ta-dropdown-content {
     border: 2px solid var(--borderColor);
+    background-color: var(--boxBackgorundColor);
     border-radius: 30px;
     width: 30%;
     text-align: center;
@@ -71,5 +78,6 @@
 
 .ta-dropdown-content-item:hover {
     cursor: pointer;
+    background-color: var(--btnBackgroundColorHover);
     color: var(--textColorHover);
 }

@@ -1,9 +1,26 @@
 :root {
     --mainBackground: linear-gradient(to bottom right, #222eee, #17dce3);
 
-    --textColor: #e1e1e1;
-    --textColorHover: #b82c3f;
+    --shadowColor: #414141;
+    --textShadow:none;
+    --textShadowColorHover: black;
 
-    --borderColor: #e1e1e1;
-    --borderColorHover: #b82c3f;
+    --textColor: #414141;
+    --textColorHover: #414141;
+
+    --borderColor: #414141;
+    --borderColorHover: #414141;
+
+    --backgroundColor: #e1e1e1;
+    --backgroundColorHover: #e1e1e1;
+
+    --btnBackgorundColor: inherit;
+    --btnBackgroundColorHover: #a1a1a1;
+    --btnTextColor: none;
+    --btnTextColorHover: none;
+
+    --boxBackgorundColor: #e1e1e1;
+    --boxBackgorundColorHover: none;
+    --boxTextColor: none;
+    --boxTextColorHover: none;
 }
