@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "ta-nav.css";
+@import "ta-btn.css";
+@import "ta-dropdown.css";
+@import "ta-responsive-behavior.css";
+
 html {
     overflow: hidden;
 }
@@ -7,14 +13,28 @@ body {
     padding: 0;
     margin: 0;
 }
+
+/*display grid*/
+.main-container {
+    display: grid;
+}
+
 /*size*/
 .main-container {
     height: 100%;
-    padding: 2%;
+    padding: 0 2% 0;
 }
 
 /*background color and font*/
 .main-container {
-    background-image: linear-gradient(to bottom right, #222eee, #17dce3);
-    color: #e1e1e1;
+    background-image: var(--mainBackground);
+    font-family: 'Lato', sans-serif;
+    color: var(--textColor);
+}
+
+@media only screen and (max-width: 960px){
+    .main-container {
+        margin: 0;
+        padding: 0;
+    }
 }

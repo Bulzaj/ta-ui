@@ -1,0 +1,9 @@
+:root {
+    --mainBackground: linear-gradient(to bottom right, #222eee, #17dce3);
+
+    --textColor: #e1e1e1;
+    --textColorHover: #b82c3f;
+
+    --borderColor: #e1e1e1;
+    --borderColorHover: #b82c3f;
+}

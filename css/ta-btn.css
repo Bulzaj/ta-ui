@@ -1,0 +1,29 @@
+.ta-btn {
+    border: 2px solid var(--borderColor);
+    border-radius: 30px;
+    background: none;
+    color: inherit;
+    white-space: nowrap;
+}
+
+.ta-btn:hover {
+    cursor: pointer;
+    /*background-color: #1c1c1c;*/
+    border-color: var(--borderColorHover);
+    color: var(--textColorHover);
+}
+
+/* BTN SIZES */
+.ta-btn-regular {
+    font-size: 25px;
+    padding: 7px;
+
+}
+
+.ta-btn-mini {
+
+}
+
+.ta-btn-big {
+
+}

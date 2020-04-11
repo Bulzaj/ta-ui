@@ -1,0 +1,13 @@
+.ta-nav-item-show-after-shrink {
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    .ta-nav-item-hide-after-shrink {
+        display: none;
+    }
+
+    .ta-nav-item-show-after-shrink {
+        display: flex;
+    }
+}
