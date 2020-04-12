@@ -1,17 +1,21 @@
 .ta-btn {
-    border: 2px solid var(--borderColor);
+    border: 2px solid;
     border-radius: 20px;
-    background-color: var(--btnBackgorundColor);
-    color: inherit;
     white-space: nowrap;
-    box-shadow: 2px 2px var(--shadowColor);
+}
+
+.ta-btn {
+    box-shadow: var(--boxShadow);
+    background-color: var(--btnBackgorundColor);
+    color: var(--btnTextColor);
+    border-color: var(--btnBorderColor);
 }
 
 .ta-btn:hover {
     cursor: pointer;
     background-color: var(--btnBackgroundColorHover);
-    border-color: var(--borderColorHover);
-    color: var(--textColorHover);
+    border-color: var(--btnBorderColorHover);
+    color: var(--btnTextColorHover);
 }
 
 /* BTN SIZES */

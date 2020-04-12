@@ -8,8 +8,6 @@
     border-bottom: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    border-color: var(--borderColorHover);
-    color: var(--textColorHover);
 }
 
 .ta-dropdown-left .ta-dropdown-content {
@@ -23,15 +21,23 @@
 
 .ta-dropdown-btn {
     position:relative;
-    background-color: var(--btnBackgorundColor);
-    box-shadow: 2px 2px var(--shadowColor);
-    border: 2px solid var(--borderColor);
+    box-shadow: var(--boxShadow);
+    border: 2px solid;
     border-radius: 20px;
     color: var(--btnTextColor);
 }
 
+.ta-dropdown-btn {
+    box-shadow: var(--boxShadow);
+    background-color: var(--btnBackgorundColor);
+    color: var(--btnTextColor);
+    border-color: var(--btnBackgorundColor);
+}
+
 .ta-dropdown-btn:hover {
     background-color: var(--btnBackgroundColorHover);
+    color: var(--btnTextColorHover);
+    border-color: var(--btnBorderColorHover);
 }
 
 .ta-dropdown-btn-regular {
@@ -51,20 +57,22 @@
     display: none;
     padding: 5px;
     min-width: 200px;
-    box-shadow: 2px 2px var(--shadowColor);
-}
-
-.ta-dropdown-content:hover {
-    border-color: var(--borderColorHover);
+    border-radius: 30px;
+    text-align: center;
+    border: 2px solid;
 }
 
 .ta-dropdown-content {
-    border: 2px solid var(--borderColor);
+    box-shadow: var(--boxShadow);
     background-color: var(--boxBackgorundColor);
-    border-radius: 30px;
-    width: 30%;
-    text-align: center;
-    padding: 0;
+    color: var(--boxTextColor);
+    border-color: var(--boxBorderColor);
+}
+
+.ta-dropdown-content:hover {
+    background-color: var(--boxBackgorundColorHover);
+    color: var(--boxTextColorHover);
+    border-color: var(--boxBorderColorHover);
 }
 
 .ta-dropdown:hover .ta-dropdown-content {
@@ -76,8 +84,15 @@
     height: 50px;
 }
 
+.ta-dropdown-content-item {
+    background-color: var(--itemBackgroundColor);
+    color: var(--itemTextColor);
+    border-color: var(--itemBorderColor);
+}
+
 .ta-dropdown-content-item:hover {
     cursor: pointer;
-    background-color: var(--btnBackgroundColorHover);
-    color: var(--textColorHover);
+    background-color: var(--itemBackgroundColorHover);
+    color: var(--itemTextColorHover);
+    border-color: var(--itemBorderColorHover);
 }

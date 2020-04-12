@@ -1,0 +1,33 @@
+.ta-top-bar-area {
+    grid-area: header;
+}
+
+.ta-left-bar-area {
+    grid-area: sideLeft;
+}
+
+.ta-right-bar-area {
+    grid-area: sideRight;
+}
+
+.ta-main-area {
+    grid-area: main;
+}
+
+.ta-main-and-right-bar-area {
+    grid-area: main;
+}
+
+.ta-footer-area {
+    grid-area: footer;
+}
+
+.ta-sm-half-screan-area {
+
+}
+
+@media only screen and (max-width: 960px) {
+    .ta-left-bar-area, ta-rigth-bar-area {
+        display: none;
+    }
+}

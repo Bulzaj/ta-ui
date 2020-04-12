@@ -3,13 +3,16 @@
 @import "ta-btn.css";
 @import "ta-dropdown.css";
 @import "ta-responsive-behavior.css";
+@import "ta-layout.css";
+@import "ta-box.css";
+@import "ta-show-up-bar.css";
 
 html {
     overflow: hidden;
 }
 
 body {
-    height: 95vh;
+    height: 99vh;
     padding: 0;
     margin: 0;
 }
@@ -17,24 +20,23 @@ body {
 /*display grid*/
 .main-container {
     display: grid;
-}
-
-/*size*/
-.main-container {
+    grid-template-areas: var(--layoutLeftBar);
+    grid-template-rows: 10% 80% 10%;
+    grid-column-gap: 5px;
     height: 100%;
-    padding: 0 2% 0;
-}
-
-/*background color and font*/
-.main-container {
+    padding: 0 25px 0;
     background-image: var(--mainBackground);
     font-family: 'Lato', sans-serif;
-    color: var(--textColor);
 }
 
 @media only screen and (max-width: 960px){
     .main-container {
         margin: 0;
         padding: 0;
+    }
+
+    .main-container {
+        display:grid;
+        grid-template-areas: var(--layoutSm);
     }
 }

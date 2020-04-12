@@ -1,26 +1,49 @@
 :root {
+    --layoutLeftBar:
+        'header header header header'
+        'sideLeft main main main'
+        'sideLeft footer footer footer';
+
+    --layoutRightBar:
+        'header header header header',
+        'main main main sideRight',
+        'footer footer footer sideRight';
+
+    --layoutSm:
+        'header header header header'
+        'main main main main'
+        'footer footer footer footer';
+
     --mainBackground: linear-gradient(to bottom right, #222eee, #17dce3);
 
-    --shadowColor: #414141;
-    --textShadow:none;
-    --textShadowColorHover: black;
+    --boxShadow: 1px 1px #414141;
+    --textShadow: none;
 
-    --textColor: #414141;
-    --textColorHover: #414141;
+    --navBackgroundColor: #e1e1e1;
+    --navBackgroundColorHover: #e1e1e1;
+    --navTextColor: #414141;
+    --navTextColorHover: #414141;
+    --navBorderColor: #414141;
+    --navBorderColorHover: #414141;
 
-    --borderColor: #414141;
-    --borderColorHover: #414141;
-
-    --backgroundColor: #e1e1e1;
-    --backgroundColorHover: #e1e1e1;
+    --itemBackgroundColor: inherit;
+    --itemBackgroundColorHover: #414141;
+    --itemTextColor: #414141;
+    --itemTextColorHover: #e1e1e1;
+    --itemBorderColor: #414141;
+    --itemBorderColorHover: #414141;
 
     --btnBackgorundColor: inherit;
-    --btnBackgroundColorHover: #a1a1a1;
-    --btnTextColor: none;
-    --btnTextColorHover: none;
+    --btnBackgroundColorHover: #414141;
+    --btnTextColor: #414141;
+    --btnTextColorHover: #e1e1e1;
+    --btnBorderColor: #414141;
+    --btnBorderColorHover: #e1e1e1;
 
     --boxBackgorundColor: #e1e1e1;
-    --boxBackgorundColorHover: none;
-    --boxTextColor: none;
-    --boxTextColorHover: none;
+    --boxBackgorundColorHover: #e1e1e1;
+    --boxTextColor: #414141;
+    --boxTextColorHover: #414141;
+    --boxBorderColor: #414141;
+    --boxBorderColorHover: none
 }

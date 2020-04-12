@@ -1,0 +1,19 @@
+.ta-box {
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.ta-box {
+    color: var(--boxTextColor);
+    box-shadow: var(--boxShadow);
+    border-color: var(--boxBorderColor);
+    background-color: var(--boxBackgorundColor);
+}
+
+.ta-box:hover {
+    color: var(--boxTextColorHover);
+    border-color: var(--boxBorderColorHover);
+    background-color: var(--boxBackgorundColorHover);
+}

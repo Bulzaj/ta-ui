@@ -1,25 +1,22 @@
 .ta-nav {
-    border: 2px solid var(--borderColor);
-    border-radius: 30px;
-    background-color: var(--backgroundColor);
-    box-shadow: 3px 3px var(--shadowColor);
-    margin-top: 2%;
-    margin-bottom: 3%;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     max-height: 80px;
 }
 
+.ta-nav {
+    box-shadow: var(--boxShadow);
+    background-color: var(--navBackgroundColor);
+    color: var(--navTextColor);
+    border-color: var(--navBorderColor);
+}
+
 .ta-nav:hover {
-    border-color: var(--borderColorHover);
-    background-color: var(--backgroundColorHover);
-}
-
-.ta-nav:hover .ta-btn {
-    border-color: var(--borderColorHover);
-    color: var(--textColorHover);
-}
-
-.ta-nav:hover .ta-nav-tittle {
-    color: var(--textColorHover);
+    border-color: var(--navBorderColorHover);
+    background-color: var(--navBackgroundColorHover);
+    color: var(--navTextColorHover);
 }
 
 .ta-nav {
