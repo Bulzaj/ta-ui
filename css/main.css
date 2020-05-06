@@ -22,7 +22,7 @@ body {
     display: grid;
     grid-template-areas: var(--layoutLeftBar);
     grid-template-rows: 10% 80% 10%;
-    grid-column-gap: 5px;
+    grid-column-gap: 30px;
     height: 100%;
     padding: 0 25px 0;
     background-image: var(--mainBackground);
